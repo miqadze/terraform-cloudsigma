@@ -9,4 +9,6 @@ terraform {
 provider "cloudsigma" {
   username = var.cloudsigma_username
   password = var.cloudsigma_password
+  location = "tbc"
+  base_url = "cloudsigma.com/api/2.0/"
 }
